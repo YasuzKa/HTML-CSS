@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body{
+   font-family: Arial, Helvetica, sans-serif
+}
+
+a{
+    color: tomato;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: burlywood;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: yellowgreen;
+}
+
+a:active{
+    color: yellow
+}
+
+a::after{
+
+ content: 'resenha'; 
+}
